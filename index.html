@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+   
+    <header class="header">
+        <a href="#" class="logo"><span>mich ael</span></a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <button class="visit-btn" onclick="location.href='#contact'">Contact Me</button>
+    </header>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="nnn.jpg" alt="">
+        
+            <div class="info-box">
+
+                <div class="tex">
+                    <h3>Hi, I'm</h1>
+                    <h1>Mich Ael</h1>
+                    <span>Frontend Developer</span>
+                </div>
+
+                <div class="btn-group">
+                    <div class="btn">Download CV</div>
+                    <div class="btn" onclick="location.href='#contact'">Contact</div>
+                </div>
+
+                <div class="socials">
+                   <a href="">
+                     <i class="fa-brands fa-square-github"></i>
+                   </a>
+                    <a href="https://linkedin.com/in/anyagbuo-michael-8a9911415" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i> 
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <setion id="experience" class="experience">
+
+        <h2 class="section-title">Experience</h2>
+
+        <div class="experience-info">
+
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-mosaic fa-solid fa-code"></i>
+                    <span>Frontend Development</span>
+                    <h3>3 Years</h3>
+                    <p>Building fast, responsive and user-friendly website with HTML, CSS, javascript and React. 
+                        Focused on clean code and great UX.</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-brands fa-wordpress"></i>
+                    <span>WordPress Development</span>
+                    <h3>3 Years</h3>
+                    <p>Building costom WordPress theme, Elementor sites and 
+                        WooCommerce stores
+                         with fast performance and easy managment. </p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-laptop"></i>
+                    <span>System Design</span>
+                    <h3>2 Years</h3>
+                    <p>Planning website architecture, building scalable layout, reusable components and structuring projects
+                        for long-term growth and performance.
+                    </p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-list"></i>
+                    <span>Content Managment</span>
+                    <h3>1 Years</h3>
+                    <p>Managing WordPress content, SEO optimization and performance to help client grow online.</p>
+                </div>
+            </div>
+            
+            <img src="nnn.jpg" alt="">
+        </div>
+    </setion>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Recent Projects</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <img src="project1.webp" alt="">
+                <h3>Project X</h3>
+                <p>Live tracker for top 3 cryptos with prices, price changes, and 24h charts.</p>
+                     <div class="btn-group">
+                        <div class="btn">Live Demo</div>
+                        <div class="btn">Github Repo</div>
+                     </div>
+            </div>
+
+            <div class="project-card">
+                <img src="project2.webp" alt="">
+                <h3>Project Y</h3>
+                <p>Modern restaurant landing page to showcase meals and drive orders.</p>
+                     <div class="btn-group">
+                        <div class="btn">Live Demo</div>
+                        <div class="btn">Github Repo</div>
+                     </div>
+            </div>
+
+            <div class="project-card">
+                <img src="project3.webp" alt="">
+                <h3>Project Z</h3>
+                <p>Dashboard that ranks Web3 projects by security trust score and market data.</p>
+                     <div class="btn-group">
+                        <div class="btn">Live Demo</div>
+                        <div class="btn">Github Repo</div>
+                     </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact Me</h2>
+
+        <form action="https://formsubmit.co/anyagbuomichael@gmail.com" method="POST">
+            <input type="text" name="Full Name" placeholder="Full Name" required>
+            <input type="email" name="Email" placeholder="Email Address" required>
+            <input type="number" name="Phone Number" placeholder="Phone Number">
+            <input type="text" name="subject" placeholder="Subject" required>
+            <textarea name="Message" placeholder="Your Message" required></textarea>
+
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="New Portfolio Message from Website">
+
+            <input type="submit" value="send message" class="btn">
+        </form>
+    </section>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright">© All rights Reserved | Mich Ael</p>
+    </footer>
+
+
+
+    <script src="script.js"></script>   
+</body>
+</html>
